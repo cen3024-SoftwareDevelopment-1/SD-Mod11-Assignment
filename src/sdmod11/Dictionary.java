@@ -67,7 +67,7 @@ public class Dictionary {
 			String driver = "com.mysql.cj.jdbc.Driver";
 			String url = "jdbc:mysql://localhost:3306/dictionary";  // Name of MySQL database is dictionary
 			String username = "jim";
-			String password = "box8bulb";
+			String password = "password";
 			Class.forName(driver);
 			
 			Connection conn = DriverManager.getConnection(url, username, password);
